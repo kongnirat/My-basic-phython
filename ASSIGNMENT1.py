@@ -10,7 +10,7 @@ hight = int (input("พิมพ์ส่วนสูงของคุณ (cm) 
 hight = hight/100
 
 #calculate bmi
-bmi = weight/(hight*hight)
+bmi = weight/(hight**2)
 
 #output
 print("BMI = " ,bmi)
