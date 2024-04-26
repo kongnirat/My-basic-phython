@@ -39,17 +39,17 @@ elif age>=25 or age<=55 and gender==("LGBTQ+"):
     print("วัยทำงาน")
     print("LGBTQ+")
      
-elif not age<=56 and gender==("ชาย"):
+elif age>=56 or age<=70  and gender==("ชาย"):
     print("นาย/นางสาว" + name)
     print("วัยชรา")
     print("เพศชาย")
     
-elif not age<=56 and gender==("หญิง"):
+elif age>=56 or age<=70 and gender==("หญิง"):
     print("นาย/นางสาว" + name)
     print("วัยชรา")
     print("เพศหญิง")
 
-elif not age<=56 and gender==("LGBTQ+"):
+elif age>=56 or age<=70 and gender==("LGBTQ+"):
     print("นาย/นางสาว" + name)
     print("วัยชรา")
     print("LGBTQ+")
