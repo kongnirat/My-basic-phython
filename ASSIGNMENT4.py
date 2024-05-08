@@ -24,5 +24,30 @@ elif bank==1000:
 
 else :
     print("คุณไม่มีเงิน")
+
+
+    
+if bank>=1000 :
+        print("1000 บาท" ,bank//1000,"ใบ")
+        bank%=1000
+
+if bank>=500 :
+        print("500 บาท" ,bank//500,"ใบ")
+        bank%=500
+
+if bank>=100 :
+        print("100 บาท" ,bank//100,"ใบ")
+        bank%=100
+
+if bank>=50 :
+        print("50 บาท" ,bank//50,"ใบ")
+        bank%=50
+
+if bank>=20 :
+        print("20 บาท" ,bank//20,"ใบ")
+        bank%=20
+        
+else :
+    print("คุณไม่มีเงิน")
     
 print("จบการทำงาน")
