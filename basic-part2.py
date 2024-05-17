@@ -62,13 +62,14 @@ else :
 print("end")
 
 #if ซ้อน if
+#การใช้pass
 if age>=15 :   
     if age<=20:
             print("วัยรุ่น")
     elif age>=21 and age<=24:
             print("วัยมหาลัย")
     elif age==25:
-            pass
+            pass#ถ้าหากมีคำสั่งตัวนี้จะข้ามไปทำคำสั่งต่อไป
     elif age<=30:
             print("วัยทำงาน")
 else : 
