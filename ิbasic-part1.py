@@ -1,3 +1,5 @@
+#Part1
+#โครงสร้างควบคุม (Control Structure)_แบบลำดับ
 x=20
 y = 12
 b = 30
