@@ -16,7 +16,16 @@ name = name.rstrip()#ลบช่องว่างขวา
 #len function\
 print(len(name))#การหาความยาวของ str
 
-#ตัวพิมพ์ใหญ่
+#แปลงตัวพิมพ์ใหญ่มั้งหมด
 print(name.upper())
 
+#แปลงตัวพิมพ์เล็กมั้งหมด
 print(name.lower())
+
+#ตัวแรกสุดเป็นตัวใหญ่
+print(name.capitalize())
+
+#การแทนที่
+print(name.replace('kong' ,"mr."))
+
+#
