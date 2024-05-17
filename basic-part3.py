@@ -32,8 +32,7 @@ print(name.replace('kong' ,"mr." ,2))#กรณี k หลายตัว
 #การเช็คข้อความ
 x = "k" in name
 
-if x:
-    name.replace("k" , "last name")
-    
-else: 
-    print("nothing")
+
+
+a = "Hello, World!"
+print(a.replace("H", "J"))
