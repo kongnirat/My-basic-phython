@@ -1,7 +1,7 @@
 #Part3
 #string
 #การเข้าถึงstr
-name = "   kong นิราศ   "#ข้อความใน"-"ถูกเรียกว่า index
+name = "   kong นิราศ k   "#ข้อความใน"-"ถูกเรียกว่า index
 
 print(name[0:8])#โดยข้อความตัวแรกจะเริ่มจาก 0 จะทำงานจนก่อนถึงจุดสุดท้ายนั้นก็คือหมายเลข 3
 print(name[:8])#ไม่ต้องเขียนเลข 0 ก็ได้
@@ -27,5 +27,13 @@ print(name.capitalize())
 
 #การแทนที่
 print(name.replace('kong' ,"mr."))
+print(name.replace('kong' ,"mr." ,2))#กรณี k หลายตัว
 
-#
+#การเช็คข้อความ
+x = "นิราศ" in name
+
+if x:
+    name.replace("นิราศ" , "last name")
+    
+else: 
+    print("nothing")
