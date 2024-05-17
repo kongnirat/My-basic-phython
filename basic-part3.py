@@ -30,10 +30,10 @@ print(name.replace('kong' ,"mr."))
 print(name.replace('kong' ,"mr." ,2))#กรณี k หลายตัว
 
 #การเช็คข้อความ
-x = "นิราศ" in name
+x = "k" in name
 
 if x:
-    name.replace("นิราศ" , "last name")
+    name.replace("k" , "last name")
     
 else: 
     print("nothing")
