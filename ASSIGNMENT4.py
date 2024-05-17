@@ -2,7 +2,8 @@
 
 bank = int(input("พิมพ์จำนวนเงินของคุณ: "))
 
-if bank==1 :
+#ver.1
+""" if bank==1 :
     print("เหรียญ 1 บาท")
 elif bank==2 : 
         print("เหรียญ 2 บาท")
@@ -24,7 +25,7 @@ elif bank==1000:
 
 else :
     print("คุณไม่มีเงิน")
-
+ """
 
     
 if bank>=1000 :
@@ -45,6 +46,10 @@ if bank>=50 :
 
 if bank>=20 :
         print("20 บาท" ,bank//20,"ใบ")
+        bank%=20
+        
+if bank>=10 :
+        print("10 บาท" ,bank//20,"ใบ")
         bank%=20
         
 else :
