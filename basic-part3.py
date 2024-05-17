@@ -1,7 +1,7 @@
 #Part3
 #string
 #การเข้าถึงstr
-name = "   kong nirat   "#ข้อความใน"-"ถูกเรียกว่า index
+name = "   kong นิราศ   "#ข้อความใน"-"ถูกเรียกว่า index
 
 print(name[0:8])#โดยข้อความตัวแรกจะเริ่มจาก 0 จะทำงานจนก่อนถึงจุดสุดท้ายนั้นก็คือหมายเลข 3
 print(name[:8])#ไม่ต้องเขียนเลข 0 ก็ได้
@@ -16,3 +16,7 @@ name = name.rstrip()#ลบช่องว่างขวา
 #len function\
 print(len(name))#การหาความยาวของ str
 
+#ตัวพิมพ์ใหญ่
+print(name.upper())
+
+print(name.lower())
