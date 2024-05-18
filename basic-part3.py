@@ -48,9 +48,10 @@ print(a.replace("H", "J"))
 fname = "kong"
 lname = "nirat"
 age = "17"
+money = 4000.50000
 
 print(str("ชื่อ: " +fname+"\tนามสกุล: " +lname +"\tอายุ: " +age))
 
 #การจัดรูปแบบแสดงผล
-txt = "ชื่อ : {}\tนามสกุล :{} \tอายุ :{} "
-print(txt.format(fname,lname,age))
+txt = "ชื่อ : {0}\tนามสกุล :{1} \tอายุ :{2} \tอาชีพ :{3} \tรายได้ :{4:.2f}  "#สามารถระบุตำแหน่งได้ด้วยการเขียนตัวเลข
+print(txt.format(fname,lname,age,"นักเรียน",money))
