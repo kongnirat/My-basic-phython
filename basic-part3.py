@@ -32,7 +32,25 @@ print(name.replace('kong' ,"mr." ,2))#กรณี k หลายตัว
 #การเช็คข้อความ
 x = "k" in name
 
+if x:
+    name.replace("k" , "last name")
+    
+else: 
+    print("nothing")
+    
+print(name)
 
-
+#การเปลี่ยนข้อความเฉพาะ
 a = "Hello, World!"
 print(a.replace("H", "J"))
+
+#การต่่อ str
+fname = "kong"
+lname = "nirat"
+age = "17"
+
+print(str("ชื่อ: " +fname+"\tนามสกุล: " +lname +"\tอายุ: " +age))
+
+#การจัดรูปแบบแสดงผล
+txt = "ชื่อ : {}\tนามสกุล :{} \tอายุ :{} "
+print(txt.format(fname,lname,age))
