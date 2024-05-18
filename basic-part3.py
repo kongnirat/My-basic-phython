@@ -58,3 +58,9 @@ print(txt.format(fname,lname,age,"นักเรียน",money))
 
 #การนับจำนวนคำในประโยค
 print(name.count("k"))
+
+#เช็คคำนำขึ้นต้น/ลงท้าย
+print(name.startswith("kong"))
+print(name.endswith("k"))
+
+
