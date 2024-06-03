@@ -63,4 +63,35 @@ print(name.count("k"))
 print(name.startswith("kong"))
 print(name.endswith("k"))
 
+#while loop จะทำงานเมื่อค่าเป็นจริง
+
+i = 1
+''''
+while i<=3 :
+    print("รอบที่ : " , i)
+    i = i + 1
+print("end")
+
+#for loop จะทำงานเมื่อมีจำนวนลูปที่ชัดเจน
+for k in range(1,3):#rangeคือตัวกำหนดรอบซึ่งจะเริ่มต้นที่ 0
+    print("รอบที่ = " , k ,"hello world")
+'''''    
+#loop ซ้อน loop
+while i<=3 : 
+    j = 1 
+    while j<=5:
+        print("รอบที่ = " ,i, "ตำแหน่งที่ =", j)
+        j+=1
+    i+=1     
+    
+for i in range(1,5): 
+    print("รอบที่ = " ,i)
+    for j in range(1,6):
+        print("ตำแหน่งที่ =", j)
+ 
+
+     
+    
+    
+
 
